@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=M+PLUS+1p&family=Pacifico&family=Paytone+One&family=Permanent+Marker&family=Protest+Revolution&family=Rock+3D&display=swap');
+@import url('https://fonts.cdnfonts.com/css/myriad-pro');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.roboto-condensed-google{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.bebas-neue{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+    margin: 2rem;
+}
+
+.primary-header {
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(20, 20, 20);
+    top: 0;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+.flex {
+    color: white;
+    display: flex;
+    gap: 2rem;
+}
+nav{
+    margin-left: 30px;
+}
+.primary-navigation {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .primary-navigation {
+        position: fixed;
+        gap: 2em;
+        inset: 0 0 0 30%;
+        background-color: rgb(26, 24, 24);
+        font: 20px;
+        /* background: hsl(0% 0% 100% 0.1); */
+        backdrop-filter: blur(1rem);
+        padding: 5rem 0 0 3rem;
+        flex-direction: column;
+        transform: translateX(100%);
+        transition: transform 0.5s ease;
+        color: rgb(145, 143, 143);
+        /* margin-bottom: ; */
+    }
+
+    .primary-navigation[data-visible="true"] {
+        transform: translateX(50%);
+    }
+
+    .mobile-nav-toggle {
+        display: block;
+        border: none;
+        position: absolute;
+        z-index: 9999;
+        background-color: transparent;
+        background-image: url("./assets/logos/list\ \(1\).svg");
+        background-repeat: no-repeat;
+        width: 2rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 2rem;
+    }
+
+    .mobile-nav-toggle[aria-expanded='true'] {
+        background-image: url("./assets/logos/x-lg.svg");
+    }
+}
+
+.resize-animation-stopper * {
+    animation: none !important;
+    transition: none !important;
+}
+
+li a {
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(41, 120, 240);
+    transform:translate(20px);
+    transition: all 350ms ease-in;
+}
+.small-details{
+    width: 100vw;
+    height: 2rem;
+    background-color:rgb(41, 120, 240);
+}
+#small-details{
+    font-weight: 700;
+    margin-left: 2rem;
+}
+.bg-house{
+    position: relative;
+    margin-top: 0;
+    height: auto;
+    background-image: url("./assets/logos/black-house-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.boxes{
+    margin-top: 5rem;
+    padding: 30px;
+}
+.main-btn-services{
+    font-size: 18px;
+    background:none;
+    border: 1px solid white;
+    padding: 10px;
+    width: 10rem;
+    color: white;
+}
+.main-btn-work{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(41, 120, 240);
+    border: 1px solid white;
+    padding: 10px;
+    width: 10rem;
+}
+.flex-main{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.font-larger{
+    color: rgb(41, 120, 240);
+    font-size: 71px;
+}
+.font-22{
+    font-size: 22px;
+}
+.img-fluid{
+    max-width: 300px;
+}
+.our-wrk{
+    position: absolute;
+    z-index: 1;
+    top: 37rem;
+}
+.our-wrk img {
+    box-shadow: 0 0 20px 7px black;
+    float: left;
+    width:  200px;
+    height: 280px;
+    object-fit: cover;
+}
+.our-wrk-flex{
+    /* gap: 10px; */
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 965px){
+    .our-wrk{
+        display: none;
+    }
+    .padding-top{
+        padding-top: 100px;
+    }
+}
+
+
+/* Our Services */
+
+
+.our-services{
+    height: auto;
+    background-color:black ;
+}
+
+.padding-top{
+    padding-top: 300px;
+}
+
+#ourServices{
+    color: rgb(41, 120, 240);
+    padding-top: 30px;
+    font-size: 71px
+}
+#diffService2{
+    padding-bottom: 50px;
+}
+#needDone{
+    font-size:50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.services{
+    height: 200px;
+    width: 300px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services img{
+    width: 100px;
+}
+.services:hover{
+    transform:scale(1.1);
+    transition: transform 0.4s ease;
+    border: none;
+}
+.box:hover{
+    background-color: rgb(29, 29, 29);
+}
+.box{
+    height: 250px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: solid black 1px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.estimate{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estiButt:hover{
+    transform:scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+.estiButt{
+    border: none;
+    background-color: rgb(41, 120, 240);
+    color: white;
+    padding: 20px 10px;
+    width:20rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Join us */
+
+.joinDiv{
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.joinPara{
+    font-size: 40px;
+}
+.Buttjoin{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.joinUsButton{
+    border: none;
+    background-color: rgb(41, 120, 240);
+    color: rgb(255, 255, 255);
+    padding: 20px 10px;
+    width:20rem;
+    border:none;
+    cursor: pointer;
+}
+.joinUsButton:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.testimonials{
+    background-color: rgb(170, 167, 167);
+    color: rgb(0, 0, 0);
+}
