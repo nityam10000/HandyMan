@@ -105,7 +105,7 @@ nav{
     transition: none !important;
 }
 
-li a {
+/* li a {
     color: rgb(190, 190, 190);
     text-decoration: none;
 }
@@ -113,7 +113,7 @@ a:hover{
     color: rgb(41, 120, 240);
     transform:translate(20px);
     transition: all 350ms ease-in;
-}
+} */
 .small-details{
     width: 100vw;
     height: 2rem;
@@ -308,4 +308,31 @@ a:hover{
 .testimonials{
     background-color: rgb(170, 167, 167);
     color: rgb(0, 0, 0);
+    height: 60vh;
+}
+.testimo1{
+    margin-bottom: 100px;
+}
+
+  /* footer section */
+
+footer{
+    height: 100vh;
+    background-color: black;
+}
+.heading-lines{
+    text-decoration: underline;
+    text-decoration-color: rgb(41, 120, 240);
+}
+.telephone{
+    color: white;
+    text-decoration: none;
+}
+.carrerButton{
+    color: white;
+    background-color: transparent;
+    border: solid white 1px;
+    width: 10rem;
+    padding: 6px;
+    font-weight: 100;
 }
