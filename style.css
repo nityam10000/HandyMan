@@ -105,15 +105,16 @@ nav{
     transition: none !important;
 }
 
-/* li a {
+.nav-anchors{
     color: rgb(190, 190, 190);
     text-decoration: none;
 }
-a:hover{
+.nav-anchors:hover{
     color: rgb(41, 120, 240);
     transform:translate(20px);
-    transition: all 350ms ease-in;
-} */
+    transition: all 280ms ease-in;
+}
+
 .small-details{
     width: 100vw;
     height: 2rem;
@@ -182,7 +183,6 @@ a:hover{
     object-fit: cover;
 }
 .our-wrk-flex{
-    /* gap: 10px; */
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -335,4 +335,11 @@ footer{
     width: 10rem;
     padding: 6px;
     font-weight: 100;
+}
+.footer-anchor{
+    text-decoration: none;
+    color: white;
+}
+.footer-anchor:hover{
+    text-decoration: underline;
 }
