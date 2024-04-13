@@ -317,7 +317,7 @@ nav{
   /* footer section */
 
 footer{
-    height: 100vh;
+    height: auto;
     background-color: black;
 }
 .heading-lines{
@@ -342,4 +342,13 @@ footer{
 }
 .footer-anchor:hover{
     text-decoration: underline;
+}
+.serve-cities-list li{
+    list-style-image: url(./assets/icons/geo-alt-fill.svg);
+}
+.copyright{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end !important;
+    position: relative;
 }
