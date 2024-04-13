@@ -275,6 +275,10 @@ nav{
     margin: 4px 2px;
     cursor: pointer;
 }
+.our-services-anchor{
+    color: white;
+    text-decoration: none;
+}
 
 /* Join us */
 
