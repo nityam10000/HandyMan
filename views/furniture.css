@@ -33,7 +33,7 @@
   position: relative;
   margin-top: 0;
   height: auto;
-  background-image: url("./imgs/vecteezy_a-group-of-tools-sitting-on-top-of-a-table-created-with_25374153.jpg");
+  background-image: url("./imgs/vecteezy_a-group-of-tools-sitting-on-top-of-a-table-created-with_25374153.jpg") !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
