@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Serve static files from the "public" directory
-app.use(express.static(path.join(__dirname, '')));
+app.use(express.static(path.join(__dirname, '/')));
 
 // Define routes
 app.get("/", (req, res) => {
@@ -34,7 +34,7 @@ app.post("/signup",async(req,res)=>{
         zip:req.body.zip
     }
 await collection.insertMany([data])
-res.sendFile(path.join(__dirname, '/'));
+res.sendFile(path.join(__dirname, 'login.html'));
 })
 
 app.post("/login",async(req,res)=>{

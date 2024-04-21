@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect("mongodb://localhost:27017/LoginSignUpPage2")
+mongoose.connect("mongodb+srv://nityamsalgotra900:qWcVQHstuvaKYl86@cluster0.1sx31vg.mongodb.net/")
 .then(()=>{
     console.log("mongo connected");
 })
