@@ -156,9 +156,47 @@
             </div>
             <div class="row mt-4 estimateButton">
                 <div class="estimate col-md-12 col-sm-12 col-xs-12" data-aos="fade-up">
-                    <button class="estiButt fw-bolder roboto-condensed-google">REQUEST YOUR ESTIMATE</button>
+                    <button class="estiButt fw-bolder roboto-condensed-google" data-bs-toggle="modal" data-bs-target="#exampleModal">REQUEST YOUR ESTIMATE</button>
                 </div>
             </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                        <div class=" scheduleoutDIV">
+                            <form class=" scheduleform" id="appointmentForm" onsubmit="return validateForm()">
+                                <!-- Service Selection -->
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button><br>
+                                <h1 class="fontSize-2 text-center">CALL US</h1>
+                                <h4 class=" text-center">for quick estimate</h4>
+                                <h4 class=" text-center mt-4 mb-5">1800-872-394</h4>
+                                <div class="form-group ">
+                                    <input type="name" class="form-control"  required placeholder="Full Name">
+                                </div>
+                    
+                                <div class="form-group">
+                                    <input type="contact" class="form-control"  required placeholder="Phone">
+                                </div>
+                                <div class="form-group ">
+                                    <input type="email" class="form-control"  required placeholder="Email">
+                                </div>
+                                <div class="form-group ">
+                                    <input type="address" class="form-control"  required placeholder="Address">
+                                </div>
+                    
+                                <!-- Client Information -->
+                                <div class="form-group ">
+                                    <textarea class="form-control" id="project" rows="3" placeholder="How canwe help You?"></textarea>
+                                </div>
+                                <div class=" buttonDIV">
+                                    <button type="submit" class="btn btn-dark ButtForm">REQUEST YOUR ESTIMATE</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
     <section class="join-us">

@@ -355,3 +355,45 @@ footer{
     align-items: flex-end !important;
     position: relative;
 }
+.modal-body{
+    padding: 0 !important;
+}
+.modal-content {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 15px !important;
+}
+.scheduleoutDIV{
+    max-width: 100%;
+    
+}
+.scheduleform{
+    font-family: "Roboto Condensed", sans-serif;
+    background: linear-gradient(to left, #00236d, #004182); 
+    /* max-width: 100%; */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 10px 15px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.fontSize{
+    font-size: 25px;
+    color: white;
+}
+.fontSize-2{
+    font-size: 50px;
+    color: white;
+}
+.buttonDIV{
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.ButtForm{
+
+    letter-spacing: 1.5px;
+}
+.form-group{
+    padding: 5px;
+}
