@@ -4,12 +4,9 @@
 
 .headDIV{
     font-family: "Bebas Neue", sans-serif;
-    background-color: white; 
+    /* background-color: white; */
     font-size: 50px;
     height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .scheduleoutDIV{
     background-color: white;

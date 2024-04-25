@@ -45,11 +45,9 @@
     </header>
     <main>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12 headDIV">
+                <div class=" text-center headDIV">
                     <p class="schedule fw-bold">SCHEDULE YOUR HANDYMAN</p>
                 </div>
-            </div>
         </div>
         <div class="container-fluid scheduleoutDIV">
             <form class="row scheduleform" id="appointmentForm" onsubmit="return validateForm()">
@@ -117,12 +115,10 @@
             </form>
         </div>
         <script>
-            // Function to validate the form
             function validateForm() {
                 var form = document.getElementById('appointmentForm');
                 var isValid = true;
         
-                // Check service selection
                 var serviceSelect = document.getElementById('service');
                 if (serviceSelect.value === 'select') {
                     serviceSelect.classList.add('is-invalid');
@@ -131,7 +127,6 @@
                     serviceSelect.classList.remove('is-invalid');
                 }
         
-                // Check city selection
                 var citySelect = document.getElementById('city');
                 if (citySelect.value === 'select') {
                     citySelect.classList.add('is-invalid');
@@ -140,7 +135,6 @@
                     citySelect.classList.remove('is-invalid');
                 }
         
-                // Check date selection
                 var dateInput = document.getElementById('date');
                 if (!dateInput.value) {
                     dateInput.classList.add('is-invalid');
