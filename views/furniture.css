@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 .black-font-b-size{
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 21px;
 }
 .fur-para{
@@ -33,7 +33,7 @@
   position: relative;
   margin-top: 0;
   height: auto;
-  background-image: url("./imgs/vecteezy_a-group-of-tools-sitting-on-top-of-a-table-created-with_25374153.jpg") !important;
+  background-image: url("./imgs/tool-hero-orange.jpg") !important;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -50,7 +50,7 @@
 }
 .fur-head-blu{
   font-size: 60px !important;
-  color: rgb(0, 102, 255);
+  color: rgb(255, 255, 255);
 }
 .Buttjoin{
   padding-top: 50px;
