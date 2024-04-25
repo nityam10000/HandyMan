@@ -68,6 +68,10 @@
   border:none;
   cursor: pointer;
 }
+.joinUsButton:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
 .big-font{
   font-size: 25px;
 }
@@ -75,4 +79,44 @@
 .schedule{
   height: 50vh;
   margin-top: 50px;
+}
+
+.modal-body{
+  padding: 0 !important;
+}
+.modal-content {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 15px !important;
+}
+.scheduleoutDIV{
+  max-width: 100%;
+  
+}
+.scheduleform{
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(to left, #00236d, #004182); 
+  /* max-width: 100%; */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px 15px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.fontSize{
+  font-size: 25px;
+  color: white;
+}
+.buttonDIV{
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.ButtForm{
+  height: 2.5rem;
+  width: 10rem;
+  letter-spacing: 1.5px;
+}
+.form-group{
+  padding: 5px;
 }
