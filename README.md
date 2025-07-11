@@ -24,6 +24,6 @@ To run this project locally:
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/your-username/handyman.git
+   https://github.com/nityam10000/HandyMan.git
 
 Website is live at: https://handyman-cdyy.onrender.com/
